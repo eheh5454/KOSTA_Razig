@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1581996900 source:/home/pi/MyProject/MyRazig/lib/piHiPri.c
+	<sched.h>
+	<string.h>
+	"wiringPi.h"
+
+1581996900 /home/pi/MyProject/MyRazig/lib/wiringPi.h
+
+1582004790 source:/home/pi/MyProject/MyRazig/lib/softPwm.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softPwm.h"
+
+1581996900 /home/pi/MyProject/MyRazig/lib/softPwm.h
+
+1581996900 source:/home/pi/MyProject/MyRazig/lib/softTone.c
+	<stdio.h>
+	<pthread.h>
+	"wiringPi.h"
+	"softTone.h"
+
+1581996900 /home/pi/MyProject/MyRazig/lib/softTone.h
+
+1581996900 source:/home/pi/MyProject/MyRazig/lib/wiringPi.c
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdlib.h>
+	<ctype.h>
+	<poll.h>
+	<unistd.h>
+	<errno.h>
+	<string.h>
+	<time.h>
+	<fcntl.h>
+	<pthread.h>
+	<sys/time.h>
+	<sys/mman.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<sys/ioctl.h>
+	"softPwm.h"
+	"softTone.h"
+	"wiringPi.h"
+
+1582093904 source:/home/pi/MyProject/MyRazig/MySources/motor_mine.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<stdint.h>
+	<unistd.h>
+	<sys/statvfs.h>
+	<fcntl.h>
+	<dirent.h>
+	"../lib/wiringPi.h"
+	"../lib/softPwm.h"
+
+1582082897 source:/home/pi/MyProject/MyRazig/MySources/motor_go.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<stdint.h>
+	<unistd.h>
+	<sys/statvfs.h>
+	<fcntl.h>
+	<dirent.h>
+	"../lib/wiringPi.h"
+	"../lib/softPwm.h"
+
