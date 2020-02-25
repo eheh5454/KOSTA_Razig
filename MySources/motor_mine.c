@@ -343,9 +343,9 @@ int main(void)
 	//motor_close();
 
 
-    int i = 0;
+    //int i = 0;
     //printf("\n");
-    motor_action("stop");
+    //motor_action("stop");
 //    while(1)
 //    {
 //        motor_action("go");
@@ -363,13 +363,13 @@ int main(void)
 //    }
 	//motor_action("right");
 
-//	while(1)
-//	{
-//        printf("Waiting.......\n");
-//        str_len = recvfrom(sock, message, BUF_SIZE-1, 0, (struct sockaddr*)&clnt_adr, &clnt_adr_sz);
-//        message[str_len] = '\0';
-//        printf("%s (%d)\n", message,strlen);
-//       motor_action(message);
-//
-//	}
+	while(1)
+	{
+        printf("Waiting.......\n");
+        str_len = recvfrom(sock, message, BUF_SIZE-1, 0, (struct sockaddr*)&clnt_adr, &clnt_adr_sz);
+        message[str_len] = '\0';
+        printf("%s (%d)\n", message,strlen);
+       motor_action(message);
+
+	}
 }
