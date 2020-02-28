@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1582849354 source:/home/pi/MyProject/MyRazig/MySources/capture.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+
+1582785902 source:/home/pi/MyProject/MyRazig/Projects/Capture/main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1582619333 source:/home/pi/MyProject/MyRazig/MySources/hts221.c
+1582703959 source:/home/pi/MyProject/MyRazig/MySources/hts221.c
 	<stdio.h>
 	<stdlib.h>
 	<linux/i2c-dev.h>

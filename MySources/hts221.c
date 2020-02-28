@@ -13,8 +13,8 @@
 #include <pthread.h>
 
 #define BUF_SIZE 30
-#define IP "192.168.0.109"
-#define PORT 9001
+//#define IP "192.168.0.109"
+#define PORT 9002
 void* UDP_Server(void *arg);
 
 char ip[BUF_SIZE];
@@ -240,7 +240,7 @@ int main(int argc, char *argv[])
 
           sendto(sock,buff,strlen(buff), 0, (struct sockaddr*)&serv_adr, sizeof(serv_adr));
           printf("send!\n");
-          sleep(5);
+          sleep(3);
 
       }
 

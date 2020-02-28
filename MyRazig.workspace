@@ -3,5 +3,6 @@
 	<Workspace title="MyRazig">
 		<Project filename="Projects/Motor/Motor.cbp" />
 		<Project filename="Projects/Temp_Hum/Temp_Hum.cbp" />
+		<Project filename="Projects/Capture/Capture.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
