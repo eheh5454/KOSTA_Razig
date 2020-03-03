@@ -44,7 +44,7 @@
 	"softTone.h"
 	"wiringPi.h"
 
-1582093904 source:/home/pi/MyProject/MyRazig/MySources/motor_mine.c
+1582532277 source:/home/pi/MyProject/MyRazig/MySources/motor_mine.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -71,6 +71,42 @@
 	<sys/statvfs.h>
 	<fcntl.h>
 	<dirent.h>
+	"../lib/wiringPi.h"
+	"../lib/softPwm.h"
+
+1581996900 source:/home/pi/MyProject/MyRazig/lib/wiringSerial.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdarg.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"wiringSerial.h"
+
+1581996900 /home/pi/MyProject/MyRazig/lib/wiringSerial.h
+
+1583131792 source:/home/pi/MyProject/MyRazig/MySources/motortest.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<unistd.h>
+	<string.h>
+	<sys/statvfs.h>
+	<fcntl.h>
+	<dirent.h>
+	<errno.h>
+	<wiringSerial.h>
+	<wiringPi.h>
+	<time.h>
+	<pthread.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<string.h>
 	"../lib/wiringPi.h"
 	"../lib/softPwm.h"
 

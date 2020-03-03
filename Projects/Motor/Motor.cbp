@@ -42,6 +42,11 @@
 		</Unit>
 		<Unit filename="../../MySources/motor_mine.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../MySources/motortest.c">
+			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../lib/piHiPri.c">
 			<Option compilerVar="CC" />
@@ -58,6 +63,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../../lib/wiringPi.h" />
+		<Unit filename="../../lib/wiringSerial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../lib/wiringSerial.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />
