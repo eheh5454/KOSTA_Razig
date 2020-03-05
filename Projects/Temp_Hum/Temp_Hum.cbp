@@ -34,8 +34,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../../MySources/Temp_Hum.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="../../MySources/hts221.c">
 			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

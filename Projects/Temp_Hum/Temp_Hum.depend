@@ -12,3 +12,16 @@
 	<string.h>
 	<pthread.h>
 
+1583378273 source:/home/pi/MyProject/MyRazig/MySources/Temp_Hum.c
+	<stdio.h>
+	<stdlib.h>
+	<linux/i2c-dev.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+	<string.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<string.h>
+	<pthread.h>
+
