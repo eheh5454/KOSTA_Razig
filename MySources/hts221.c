@@ -281,11 +281,13 @@ void* UDP_Server(void *arg)
         str_len = recvfrom(sock, buf, BUF_SIZE-1, 0, (struct sockaddr*)&clnt_adr, &clnt_adr_sz);
         buf[str_len] = '\0';
 
+        char *find = strchr(buf,':');
+        int port_start = find-buf + 1;
         //get IP, PORT string
-        strncpy(local_ip,buf+3,13);
-        strncpy(local_port,buf+strlen(local_ip)+3,4);
+        strncpy(local_ip,buf+3,port_start-4);
+        strncpy(local_port,buf+port_start,5);
 
-        printf("%s %s\n",local_ip, local_port);
+        printf("ip:%s port:%s\n",local_ip, local_port);
 
         //copy to global ip, port
         strcpy(ip,local_ip);
